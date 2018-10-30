@@ -25,15 +25,16 @@
   \section{Skills}
     Linux system admin, 
     Kernel debugging,
+    Application debugging,
     Shell scripting, Automation, Programming
   \section{Languages}
     Python, Perl, Bash,
     C/C++
   \section{Systems}
-    Debian, Ubuntu, Gentoo,
-    Arch, ChromiumOS
+    Debian, RedHat, Gentoo,
+    FreeBSD, ChromiumOS
   \section{Tools}
-	Ansible, Nagios, nmap, Git, nginx, Apache2, gdb, pdb, MySQL, MongoDB, Virsh, Qemu (KVM), Jenkins
+	Ansible, Nagios, nmap, Git, nginx, Apache2, gdb, MySQL, MongoDB, Virsh, Qemu, repo, Jenkins
   \section{Online}
     github.com/{\bodyfontbold pobega}
     linkedin.com/in/{\bodyfontbold pobega}
@@ -44,10 +45,11 @@
 \begin{main}
   \section{Work Experience}
     \experience{Neverware}{New York, NY}{Software Developer}{September 2016 - Present}
-      \point {Developer for Neverware's fork of ChromiumOS,  CloudReady}
+      \point {Works on Neverware's fork of ChromiumOS,  CloudReady}
       \point {Debugs and resolves hardware compatibility issues in CloudReady}
-        \subpoint {Manages driver compatibility and patches hardware quirks in Linux kernel }
-        \subpoint {Cherry-picks upstream changes into Longterm release kernels}
+        \subpoint {Works with Product and Sales to resolve customer issues and deliver adhoc builds}
+        \subpoint {Manages driver compatibility and patches hardware quirks in Linux kernel}
+        \subpoint {Cherry-picks upstream changes into longterm release kernels}
         \subpoint {Resolves hardware compatibility issues with CRAS ({\bodyfontitalics C}h{\bodyfontitalics R}omiumOS {\bodyfontitalics A}udio {\bodyfontitalics S}erver)}
       \point {Developed a tool to automate the creation of deployable CloudReady installer images}
         \subpoint {Uses Qemu and modifications to install scripts to automate a real install}
@@ -56,14 +58,15 @@
       \point {Administrator for Neverware's local Windows 7 Hypervisor solution, PCReady}
       \point {Administered roughly 300 PCReady servers across 120 schools}
         \subpoint {Troubleshot issues and worked with the dev team to identify root causes}
+        \subpoint {Wrote client patches and deployed remotely to customers machines}
       \point {Engineered software for the monitoring and automation of PCReady tasks}
       \point {Solely managed customer support interactions for PCReady}
     \experience{SUNYIT ITS Department}{Utica, NY}{Linux System Administrator}{September 2013 - May 2014}
-      \point {Worked with the Administration team to deploy and administer Linux servers}
-      \point {Migrated services running on legacy Unix software/hardware to a virtualized environment}
-        \subpoint {Migrated primarily from ancient Sun Solaris server}
-      \point {Reimplemented logic of expensive mailing list software in Perl}
-        \subpoint {Solution integrated with their existing LDAP (authentication) setup}
+      \point {Worked with the Administration team to deploy and manage Linux servers}
+      \point {Migrated services running on legacy Unix software/hardware to a modern virtualized environment}
+        \subpoint {From ancient Sun Solaris server to modern CentOS running on VMWare ESXi}
+      \point {Reimplemented expensive legacy mailing list software in Perl}
+        \subpoint {Solution integrated with the school's existing LDAP setup}
       \point {Introduced configuration management through Ansible as a tool for rapid redeployment}
         \subpoint {Implemented a majority of existing server configurations in Ansible Playbooks}
     \experience{SUNYIT CS Department}{Utica, NY}{Junior System Administrator}{January 2010 - January 2012}
@@ -74,10 +77,10 @@
   \hrulefill
   \section{Education}
     \experience{SUNY Institute of Technology}{Utica, NY}{BSc Computer Science}{Class of May 2014}
+      \point {Created custom CPU architecture simulator code}
+      \point {Wrote and booted a simplistic proof-of-concept x86 bootloader}
       \point {Deployed and configured Nagios to monitor pre-existing SUNYIT production services}
       \point {Set up Ansible configuration management on production network}
-        \subpoint {Used to deploy 'Nagios Remote Plugin Executor'}
-        \subpoint {Automated Nagios related tasks, simplifying administration}
 \end{main}
 
 \end{document}
