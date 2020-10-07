@@ -12,7 +12,7 @@
        {Linux Systems Engineer}
 
 % --- Footer --- %
-\footer{References and Capstone documentation available upon request}
+\footer{References and Capstone documentation available at  https://github.com/pobega/college}
 
 % --- Left Column --- %
 \begin{aside}
@@ -26,14 +26,14 @@
     Application debugging,
     Shell scripting, Automation, Programming
   \section{Languages}
-    Python, Perl, Bash,
-    C/C++
+    Python, Rust, Perl,
+    Javascript, Bash, C/C++
   \section{Systems}
-    Debian, RedHat, Gentoo,
-    FreeBSD, ChromiumOS
+    ChromiumOS, Gentoo, Fedora/Silverblue, Debian, RedHat, FreeBSD
   \section{Tools}
-	Ansible, Nagios, nmap, Git, nginx, Apache2, gdb, MySQL, MongoDB, Virsh, Qemu, repo, Jenkins
+	Ansible, Nagios, Flatpak, Toolbox, Docker/Podman, nmap, Git, gdb, MongoDB, Virsh, Qemu, repo, Jenkins, Glade (GTK)
   \section{Online}
+    {\bodyfontbold pobega}.github.io
     github.com/{\bodyfontbold pobega}
     linkedin.com/in/{\bodyfontbold pobega}
     serverfault.com/{\bodyfontbold pobega}
@@ -43,42 +43,39 @@
 \begin{main}
   \section{Work Experience}
     \experience{Neverware}{New York, NY}{Software Developer}{September 2016 - Present}
-      \point {Works on Neverware's fork of ChromiumOS,  CloudReady}
+      \point {Works on Neverware's fork of ChromiumOS  "CloudReady"}
       \point {Debugs and resolves hardware compatibility issues in CloudReady}
-        \subpoint {Works with Product and Sales to resolve customer issues and deliver adhoc builds}
+        \subpoint {Works closely with Product and Sales to resolve customer issues}
         \subpoint {Manages driver compatibility and patches hardware quirks in Linux kernel}
-        \subpoint {Cherry-picks upstream changes into longterm release kernels}
-        \subpoint {Resolves hardware compatibility issues with CRAS ({\bodyfontitalics C}h{\bodyfontitalics R}omiumOS {\bodyfontitalics A}udio {\bodyfontitalics S}erver)}
+      \point {Merges upstream code back into Neverware's forks \& handles merge conflicts and build issues}
       \point {Developed a tool to automate the creation of deployable CloudReady installer images}
-        \subpoint {Uses Qemu and modifications to install scripts to automate a real install}
         \subpoint {Saves Neverware's support team 2 hours per customer request}
     \experience{Neverware}{New York, NY}{Site Reliability Engineer}{September 2014 - September 2016}
-      \point {Administrator for Neverware's local Windows 7 Hypervisor solution, PCReady}
-      \point {Administered roughly 300 PCReady servers across 120 schools}
-        \subpoint {Troubleshot issues and worked with the dev team to identify root causes}
-        \subpoint {Wrote client patches and deployed remotely to customers machines}
+      \point {Administrator for Neverware's local Windows 7 Hypervisor solution "PCReady"}
+        \subpoint {Managed roughly 300 PCReady servers across 120 schools}
+      \point {Worked closely with the Engineering team to find and fix core product issues}
       \point {Engineered software for the monitoring and automation of PCReady tasks}
-      \point {Solely managed customer support interactions for PCReady}
+      \point {Handled customer support interactions for PCReady via phone and e-mail}
     \experience{SUNYIT ITS Department}{Utica, NY}{Linux System Administrator}{September 2013 - May 2014}
-      \point {Worked with the Administration team to deploy and manage Linux servers}
-      \point {Migrated services running on legacy Unix software/hardware to a modern virtualized environment}
-        \subpoint {From ancient Sun Solaris server to modern CentOS running on VMWare ESXi}
-      \point {Reimplemented expensive legacy mailing list software in Perl}
-        \subpoint {Solution integrated with the school's existing LDAP setup}
+      \point {Migrated services from legacy Unix hardware to a modern virtualized environment}
+      \point {Reimplemented legacy mailing list software in Perl \& integrate with existing LDAP}
       \point {Introduced configuration management through Ansible as a tool for rapid redeployment}
-        \subpoint {Implemented a majority of existing server configurations in Ansible Playbooks}
+      \point {Setup Nagios server monitoring for the school's production network}
     \experience{SUNYIT CS Department}{Utica, NY}{Junior System Administrator}{January 2010 - January 2012}
       \point {Responsible for the Gentoo Linux lab, as well as other misc. Linux labs on campus}
-      \point {Maintained \& updated Gentoo master image}
-        \subpoint {Image was deployed to labs via PXE boot multicast imaging process.}
+        \subpoint {Lab was managed via PXE boot multicast imaging process.}
       \point {Implemented multicast ISO burning solution in Bash (\textit{wodimcast})}
   \hrulefill
   \section{Education}
     \experience{SUNY Institute of Technology}{Utica, NY}{BSc Computer Science}{Class of May 2014}
-      \point {Created custom CPU architecture simulator code}
+      \point {Created an emulator for a fictional CPU architecture}
       \point {Wrote and booted a simplistic proof-of-concept x86 bootloader}
-      \point {Deployed and configured Nagios to monitor pre-existing SUNYIT production services}
-      \point {Set up Ansible configuration management on production network}
+  \hrulefill
+  \section{Personal Projects}
+    \experience{Mullvad Indicator}{2020}{Gnome3 shell extension}{Gnome Javascript}
+      \point {Monitor and control connectivity to the Mullvad.net VPN service}
+    \experience{com.fightcade.Fightcade}{2020}{Fightcade application Flatpak}{YAML/Shell}
+      \point {Sandboxes a proprietary application for easy distribution on Linux and CloudReady}
+      \point {Bundles custom 32-bit Wine build for running emulators}
 \end{main}
-
 \end{document}
