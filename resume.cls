@@ -13,7 +13,7 @@
 \pagestyle{fancy}
 
 % Forces the footer further down, so it's not overlapping text
-\setlength{\footskip}{120pt}
+\setlength{\footskip}{135pt}
 
 % --- Shortcuts --- %
 \newcommand{\br}{\vspace{\baselineskip}} % lineskip
